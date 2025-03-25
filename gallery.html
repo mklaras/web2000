@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Web2000</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Web2000</h1>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero gallery-hero">
+            <h2>Nossos Trabalhos</h2>
+            <p>Conheça alguns dos projetos que nos orgulhamos</p>
+        </section>
+
+        <section class="portfolio">
+            <div class="section-title">
+                <h2>Portfólio</h2>
+                <p>Uma seleção dos nossos melhores projetos</p>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/project1.jpg" alt="Projeto Web">
+                    <div class="portfolio-overlay">
+                        <h3>Site Corporativo</h3>
+                        <p>Design moderno e funcional</p>
+                        <a href="#" class="portfolio-link">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <div class="section-title">
+                    <h2>O Que Nossos Clientes Dizem</h2>
+                </div>
+
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <div class="client-photo">
+                            <img src="images/user.jpg" style="height: 300px;" alt="Cliente">
+                        </div>
+                        <div class="client-quote">
+                            <p>"A Web2000 transformou completamente nossa presença online. Profissionais incríveis!"</p>
+                            <div class="client-info">
+                                <h4>Carlos Silva</h4>
+                                <span>CEO, Empresa X</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mais depoimentos -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Rodapé igual ao about.html -->
+    </footer>
+
+    <button class="back-to-top" title="Voltar ao topo"></button>
+    <script src="scripts.js"></script>
+</body>
+</html>
